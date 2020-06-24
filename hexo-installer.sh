@@ -31,4 +31,4 @@ npm install --prefix $blog hexo-deployer-git hexo-generator-feed hexo-generator-
 echo "Hexo 已初始化并已安装基础模块，请勿重复进行 hexo init"
 echo "Hexo 版本信息如下"
 hexo version
-green "博客目录默认为 $blog"
+echo "博客目录默认为 $blog"
