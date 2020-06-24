@@ -17,7 +17,7 @@ npm config set registry https://registry.npm.taobao.org ;;
 n)
 echo "Use default" ;;
 *)
-echo "输入无效,使用默认源" ;;
+red "输入无效,使用默认源" ;;
 esac
 npm install -g npm
 npm install -g hexo-cli
@@ -28,7 +28,7 @@ mkdir -p $HOME/$blogname
 blog=$HOME/$blogname
 hexo init $blog
 npm install --prefix $blog hexo-deployer-git hexo-generator-feed hexo-generator-sitemap --save
-echo "Hexo 已初始化并已安装基础模块，请勿重复进行 hexo init"
-echo "Hexo 版本信息如下"
+red "Hexo 已初始化并已安装基础模块，请勿重复进行 hexo init"
+green "Hexo 版本信息如下"
 hexo version
 green "博客目录默认为 $blog"
