@@ -22,7 +22,7 @@ esac
 npm install -g npm
 npm install -g hexo-cli
 echo "请输入您想创建的 Hexo 博客文件夹名称 [必填]"
-echo -e "\t\tEnter the name: "
+echo -en "\t\tEnter the name: "
 read blogname
 mkdir -p $HOME/$blogname
 blog=$HOME/$blogname
