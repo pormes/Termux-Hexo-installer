@@ -1,9 +1,10 @@
 # Termux-Hexo-installer
 
+*注意，该仓库已归档*
+Hexo 安装已集成至 https://github.com/huanruomengyun/Termux-Tools
+
 ## Feature
 - 在 Termux 上一键安装 Hexo
-- 在 Termux 上一键配置 Hexo 所需环境
-- 轻度美化 Termux，增强 Termux 的易用性
 
 ## 如何使用脚本？
 下载 [Termux](https://play.google.com/store/apps/details?id=com.termux) 并打开你的 Termux。

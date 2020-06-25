@@ -1,9 +1,10 @@
 # Termux-Hexo-installer
 
+*The repository has been archived*
+You can use [the new one](https://github.com/huanruomengyun/Termux-Tools)
+
 ## Feature
 - One-click to install Hexo on the Termux
-- One-click to configure the environment of Hexo on the Termux
-- One-click to beautify Termux,and enhance Termux's ease of use lightly
 
 ## How to use the script？
 Download [Termux](https://play.google.com/store/apps/details?id=com.termux) and open your Termux.

@@ -9,7 +9,7 @@
 clear
 pkg in nodejs-lts git vim nano openssh unzip -y
 echo "是否更换 NPM 源为淘宝源? [y/n]"
-echo -e "\t\tEnter an option: "
+echo -e "Enter an option: "
 read npmtaobao
 case $npmtaobao in
 y)
